@@ -1,0 +1,19 @@
+name: "Sugerir un cambio o añadir contenido en la Wiki Oficial"
+description: "Propón cambios o la implementación de nuevos artículos comunitarios"
+title: "[Wiki] "
+labels: ["Correción ortográfica", "Corrección de Formato", "Extender artículo", "Nuevo artículo"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: "URL del artículo o categoría si existe"
+      placeholder: "https://wiki.minehorizon.net/docs/..."
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: "¿Por qué crees necesaria tu implementación?"
+      description: "Explica un poco la solicitud, así como la implementación"
+    validations:
+      required: true
