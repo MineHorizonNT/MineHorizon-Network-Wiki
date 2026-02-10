@@ -1,3 +1,10 @@
+---
+title: MineHorizon Wiki
+description: Documentación oficial de MineHorizon Network
+sidebar:
+  hidden: true
+---
+
 # 📚 MineHorizon Network — Wiki Oficial
 
 Bienvenido al **repositorio oficial de la Wiki de MineHorizon Network**.  
